@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  h2:
+    console:
+      enabled: true
+
+jwt:
+  secret: hhSGJwnqjCQga0ywv5pqfCcVsyhPWEi/OX/B7qCGnJ4EzSc14pJxLH1uofdszIK/vfQeLZNvm2dMSlms6XwzUO/f6cstU0d8gV1/LtdVdxBbIMXsarKu/Xmjf0rhNStY4KZm74T23Qq4G79U9QD16spEkDwo/Y7wpC8biO/ZcV3ausieBX499MxNsVn9NyJkOvm/LskofvMlNtgkj0QSgK7ZAtzfwUpbjiPJoK4g==%
